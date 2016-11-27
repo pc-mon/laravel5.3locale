@@ -13,6 +13,6 @@ class Controller extends BaseController
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function __construct() {
 
-        App::setLocale(session('locale'));
+
     }
 }
